@@ -1,0 +1,53 @@
+<div class="loginbody">
+    <nav class="navbar navbar-dark bg-primary">
+      <div class="container-fluid">
+        <div class="example-sidenav-content">
+          <button type="button" id="togglebtn" class="btn btn-primary" mat-button (click)="drawer.toggle()">
+            Employees
+          </button>
+        </div>
+        
+        <div class="row">
+         
+  
+          <div class="col"><button type="button" class="btn btn-primary" (click)="profile()">
+         <span class="material-icons">
+            person
+            </span></button> </div>
+          <div class="col"><button type="button" class="btn btn-primary" (click)="logout()">
+            <span class="material-icons">
+              login 
+              </span>  
+          </button> </div>
+        </div>          
+      </div>
+    </nav>
+ 
+    <!-- Creates the bootstrap modal where the image will appear -->
+  
+      
+  <mat-drawer-container class="example-container" autosize>
+    <div class="container">
+      <app-carousel [slides]="slides" [animationType]="animationType"></app-carousel>
+      <div class="animition-type-selector">
+        <div
+          *ngFor="let type of animationTypes"
+          class="button"
+          (click)="setAnimationType(type)"
+          [class.active]="animationType === type.value"
+        >
+          {{ type.name }}
+        </div>
+      </div>
+    </div>
+    <mat-drawer #drawer class="example-sidenav bg-primary" mode="side">
+  <br/><br/><br/>
+
+  <div class="sidebutton"><a class="linki" (click)="searchforemployee()"> Search Employee</a></div>
+    </mat-drawer>
+  
+    
+  
+  </mat-drawer-container>
+  
+</div>

@@ -1,0 +1,65 @@
+.sidebutton{
+  background-color:rgb(51, 51, 105);
+  width: 100%;
+  padding: 10px;
+  float:center;
+  color: white;
+  align-self:center;
+  align-items: center;
+}
+.linki{
+  font-size: 25px;
+  color: white;
+}
+#togglebtn{
+    font-size: 25px;
+    margin-top: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.body{
+  background-image: url('src/app/frontai.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+
+  background-color: brown; /* Used if the image is unavailable */
+  height: 657px;
+  margin-top: 200px;
+  width: 1366px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+}
+span{
+    font-size: 35px;
+    margin-right: 0px;
+}
+mat-sidenav{
+    background-color:rgb(25, 118, 210);
+}
+
+.example-container {
+  background-image: url('src/app/front2.jpg');
+  background-color: brown; 
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+    height: 580px;
+    width: 1366px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+  
+.example-sidenav-content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+  }
+  
+  .example-sidenav {
+    padding: 20px;
+    width: 300px;
+  }
+  

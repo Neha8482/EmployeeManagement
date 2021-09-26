@@ -1,0 +1,48 @@
+<div class="body">
+    <button type="button" class="btn btn-primary" (click)="takehome()">
+   Home</button>
+    <select name="Search"  (change)="selectChangeHandler($event)" id="Search">
+      <option value="ID">ID</option>
+      <option value="firstName">FirstName</option>
+      <option value="lastName">LastName</option>
+      <option value="email">Email</option>
+      <option value="Designation">Designation</option>
+      <option value="Skills">Skills</option>
+      <option value="Salary">Salary</option>
+      <option value="DOJ">DOJ</option>
+    </select>
+    
+
+    <input [(ngModel)]="searchText" placeholder="Search.." class="advancedSearchTextbox">
+    <input *ngIf="selectv" placeholder="Search.." class="advancedSearchTextbox">
+    <br/><br/>
+    <table class="table table-striped">
+    <thead>
+    <tr>
+      <th class="hidden">Id</th>
+      <th>FirstName</th>
+      <th>LastName</th>
+      <th>Email</th>
+      <th>Designation</th>
+      <th>DOJ</th>
+      <th>Salary</th>
+      <th>Skills</th>
+      <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let employee of employees | grdFilter: {firstName: searchText, lastName:searchText,  email: searchText,Designation: searchText,DOJ: searchText,Salary: searchText,skills: searchText}; let i=index;">
+      <td>{{employee.id}}</td>
+      <td>{{employee.firstName}}</td>
+      <td>{{employee.lastName}}</td>
+      <td>{{employee.email}}</td>
+      <td>{{employee.Designation}}</td>
+      <td>{{employee.DOJ}}</td>
+      <td>{{employee.Salary}}</td>
+      <td>{{employee.Skills}}</td>
+      <td><button class="btn btn-danger" (click)="deleteemployee(employee.id)"> Delete</button></td>
+     <td><button class="btn btn-danger" (click)="editemployee(employee.id)" style="margin-left: 20px;"> Edit</button></td>
+    </tr>
+    </tbody>
+    </table>
+    </div>

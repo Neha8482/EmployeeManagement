@@ -1,0 +1,56 @@
+<div class="body">
+    <div class="editform"> 
+      <h2 class="text-center">Edit employee</h2>
+        <form [formGroup]="editForm" (ngSubmit)="onSubmit()">
+          <div class="form-group">
+            <label for="id">ID :</label>
+            <input type="text" formControlName="id" placeholder="id" name="id" class="form-control" id="id">
+          </div> 
+          <div class="row">
+            <div class="col">
+              <div class="form-group">
+                <label for="firstName">First Name :</label>
+                <input formControlName="firstName" placeholder="First Name" name="firstName" class="form-control" id="firstName">
+              </div> 
+          </div>
+          <div class="col">
+        <div class="form-group">
+          <label for="lastName">Last Name :</label>
+          <input formControlName="lastName" placeholder="Last name" name="lastName" class="form-control" id="lastName">
+        </div>
+          </div>
+        </div>
+       
+        <div class="form-group">
+          <label for="email">Email :</label>
+          <input type="email" formControlName="email" placeholder="Email" name="email" class="form-control" id="email">
+        </div>
+        <div class="row"><div class="col">
+          <div class="form-group">
+            <label for="Designation">Designation :</label>
+            <select formControlName="Designation" name="Designation" class="form-control" id="Designation">
+              <option value="Software Engineer">Software Engineer</option>
+              <option value="Manager">Manager</option>
+              <option value="CEO">CEO</option>
+              <option value="COO">COO</option>
+              <option value="Delivery Head">Delivery Head</option>
+              <option value="HR">HR</option>
+            </select></div>
+        </div><div class="col">
+          <div class="form-group">
+            <label for="DOJ">DOJ :</label>
+            <input type="text" formControlName="DOJ" placeholder="DOJ" name="DOJ" class="form-control" id="DOJ">
+          </div>
+        </div></div>
+        <div class="form-group">
+          <label for="Salary">Salary :</label>
+          <input type="Salary" formControlName="Salary" placeholder="Salary" name="Salary" class="form-control" id="Salary">
+        </div>
+        <div class="form-group">
+          <label for="Skills">Skills:</label>
+          <input type="Skills" formControlName="Skills" placeholder="Skills" name="Skills" class="form-control" id="Skills">
+        </div>
+        
+        <button class="btn btn-success">Update</button>
+        </form>
+        </div></div>

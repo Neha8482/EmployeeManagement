@@ -1,0 +1,34 @@
+.body{
+    background-image: url('src/app/front2.jpg');
+    background-attachment: fixed;
+
+ 
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 657px;
+    width: 1366px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+}
+.table {
+    background-color: white;
+    margin-top: 20px;
+}
+
+option,select{
+    width: 250px;
+    height: 40px;
+    float: right;
+    margin: 10px;
+
+}
+input{
+    width: 250px;
+    height: 40px;
+    float: right;
+    margin: 10px;
+}
+.h2{
+color: white;
+align-self:center;
+}

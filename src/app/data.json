@@ -1,0 +1,215 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "firstName": "Lary",
+      "lastName": "George",
+      "email": "lary@yahoo.com",
+      "Designation": "Software Engineer",
+      "Skills": "Angular,Java",
+      "DOJ": "15/11/1980",
+      "Salary": "5800000"
+    },
+    {
+      "id": "2",
+      "firstName": "Kery",
+      "lastName": "Johnson",
+      "email": "kary@yahoo.com",
+      "Designation": "Manager",
+      "Skills": "Python,Java",
+      "DOJ": "06/08/2007",
+      "Salary": "555555555"
+    },
+    {
+      "id": "16",
+      "firstName": "Ishita",
+      "lastName": "Singhania",
+      "email": "ishita@gmail.com",
+      "Designation": "Software Engineer",
+      "DOJ": "28/10/2009",
+      "Salary": "890000",
+      "Skills": "Java,Python"
+    },
+    {
+      "id": "12",
+      "firstName": "Brett",
+      "lastName": "Lee",
+      "email": "brett@gmail.com",
+      "Designation": "Manager",
+      "DOJ": "28/10/2009",
+      "Salary": "890000",
+      "Skills": "Angular,Android"
+    },
+    {
+      "id": "6",
+      "firstName": "AB",
+      "lastName": "Deviliers",
+      "email": "abdeviliers@gmail.com",
+      "Designation": "HR",
+      "DOJ": "04/12/1999",
+      "Salary": "360000",
+      "Skills": "React,Machine Learning"
+    },
+    {
+      "id": "67",
+      "firstName": "Isha",
+      "lastName": "Morgan",
+      "email": "isha@gmail.com",
+      "Designation": "Manager",
+      "DOJ": "28/10/2009",
+      "Salary": "890000",
+      "Skills": "Java,Python"
+    },
+    {
+      "id": "34",
+      "firstName": "Akshat",
+      "lastName": "Kariya",
+      "email": "akshat@gmail.com",
+      "Designation": "HR",
+      "DOJ": "06/08/2009",
+      "Salary": "6660000",
+      "Skills": "Data Science,AI"
+    }
+  ],
+  "admindata": [
+    {
+      "id": "101",
+      "firstName": "Shikhar",
+      "lastName": "Gill",
+      "email": "shikhar@yahoo.com",
+      "Designation": "COO",
+      "Skills": "Python,Java",
+      "DOJ": "06/08/1890",
+      "Salary": "555555555"
+    },
+    {
+      "id": "102",
+      "firstName": "abc",
+      "lastName": "def",
+      "email": "abc@yahoo.com",
+      "Designation": "CEO",
+      "DOJ": "06/08/1890",
+      "Salary": "890000",
+      "Skills": "Python,Java"
+    },
+    {
+      "id": "108",
+      "firstName": "Eoin",
+      "lastName": "Morgon",
+      "email": "eoin@gmail.com",
+      "Designation": "Manager",
+      "DOJ": "17/09/2008",
+      "Salary": "890000",
+      "Skills": "Programming"
+    },
+    {
+      "id": "78",
+      "firstName": "abcd",
+      "lastName": "dssa",
+      "email": "abcd@gmail.com",
+      "Designation": "Software Engineer",
+      "DOJ": "28/10/2009",
+      "Salary": "670000",
+      "Skills": "Angular,Android"
+    }
+  ],
+  "loginadmin": [
+    {
+      "id": "101",
+      "email": "shikhar@yahoo.com",
+      "password": "101"
+    },
+    {
+      "id": "102",
+      "email": "abc@yahoo.com",
+      "password": "102"
+    },
+    {
+      "email": "Smriti",
+      "password": "Mandana",
+      "id": "U8dcNmd"
+    },
+    {
+      "email": "Manish",
+      "password": "Pandey",
+      "id": "E4-hNvv"
+    },
+    {
+      "email": "Eoin",
+      "password": "Morgon",
+      "id": "jhNg9Lq"
+    },
+    {
+      "email": "abcd",
+      "password": "dssa",
+      "id": "lrylgXe"
+    }
+  ],
+  "login": [
+    {
+      "email": "lary@yahoo.com",
+      "password": "1",
+      "id": "1"
+    },
+    {
+      "email": "kery@yahoo.com",
+      "password": "2",
+      "id": "2"
+    },
+    {
+      "email": "shital@gmail.com",
+      "password": "Mahajan",
+      "id": "XpYifEf"
+    },
+    {
+      "email": "khushi@gmail.com",
+      "password": "Sharma",
+      "id": "BOmrzeC"
+    },
+    {
+      "email": "priyansh@gmail.com",
+      "password": "25",
+      "id": "eU8YSxI"
+    },
+    {
+      "email": "shantanu@gmail.com",
+      "password": "54",
+      "id": "iiDTwqa"
+    },
+    {
+      "email": "ishita@gmail.com",
+      "password": "16",
+      "id": "2XltnI_"
+    },
+    {
+      "email": "brett@gmail.com",
+      "password": "12",
+      "id": "SP4uqbJ"
+    },
+    {
+      "email": "abd@gmail.com",
+      "password": "6",
+      "id": "89CeEe6"
+    },
+    {
+      "email": "ravindra@gmail.com",
+      "password": "34",
+      "id": "igrn76h"
+    },
+    {
+      "email": "isha@gmail.com",
+      "password": "67",
+      "id": "-67_Uh0"
+    },
+    {
+      "email": "akshat@gmail.com",
+      "password": "34",
+      "id": "CvLOekX"
+    },
+    {
+      "email": "harsh@gmail.com",
+      "password": "56",
+      "id": "yGj6AzR"
+    }
+  ]
+}

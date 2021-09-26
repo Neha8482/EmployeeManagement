@@ -1,0 +1,39 @@
+.loginbody{
+    background-image: url('src/app/frontai.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+ 
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 657px;
+    width: 1366px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  
+}
+.logo-image{
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    margin-top: -6px;
+}
+#header{
+    font-style:  oblique 40deg;
+    font-weight: bold;
+    font-size: 30px;
+}
+h1{
+
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+span{
+    font-size: 30px;
+    margin-right: 0px;
+}
+button{
+
+    margin-left: 10px;
+}

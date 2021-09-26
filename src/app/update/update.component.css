@@ -1,0 +1,20 @@
+.editform{
+    border: black solid ;
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: white;
+}
+.body{
+    background-image: url('src/app/front2.jpg');
+    background-attachment: fixed;
+
+ 
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 657px;
+    width: 1366px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+}
